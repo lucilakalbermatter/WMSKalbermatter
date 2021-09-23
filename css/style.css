@@ -1,0 +1,144 @@
+body {
+    background-color:#8FC6F7;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    color: black;
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+  background: #292E32;
+  color: white;
+  font-size: 30px;
+  font-family: Helvetica;
+}
+
+.header img {
+  float: left;
+  width: 300px;
+  height: 350px;
+}
+
+.header h1 {
+    text-decoration: none;
+    font-weight: bold;
+    float: center;
+    font-size: 100px;
+    font-style: oblique;
+    font-family: Helvetica;
+
+}
+
+.header p {
+   font-size: 60px;
+   text-decoration: underline;
+   margin-left: 150px;
+   text-transform: uppercase;
+   font-family: Helvetica;
+
+}
+
+h2 {
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+li {
+    font-size: 25px;
+
+}
+nav {
+	text-align: center;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-size: 35px;
+	margin-top: 50px;
+	margin-left: 200px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: #A4A7AD;
+    background-color: white;
+    text-transform: uppercase;
+}
+
+section p{
+    font-size: 25px;
+    text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.image {
+  flex-basis: 10%;
+  border: 5px solid black;
+  object-fit: contain;
+}
+
+.text {
+  font-size: 35px;
+  padding-left: 10px;
+  text-align: center;
+  font-family: arial;
+
+}
+
+hr {
+   width: 50%;
+   margin-left: 400px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   height: 3px;
+   color: black;
+   background-color: black;
+}
+
+h3 {
+    font-size: 50px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+table {
+    text-align: left;
+}
+
+.table {
+   margin-left: auto;
+   margin-right: auto;
+   font-size: 28px;
+   margin-bottom: 50px;
+}
+
+#process {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 60%;
+    height: 50%;
+    border: 5px solid black;
+    text-align: center;
+
+}
+
+
+footer {
+	text-align: center;
+    padding: 3px;
+    color: white;
+    background: #292E32;
+    font-size: 20px;
+}
