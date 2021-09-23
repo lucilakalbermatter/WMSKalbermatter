@@ -13,7 +13,7 @@
 
 <h2> <em> Features </em> </h2>
 
-<h3> Implemented features</h3>
+<h3> <em> Implemented features </em></h3>
 
  <ol> 
    <li> Set up a repository using GitHub </li>
@@ -36,25 +36,15 @@
 
 <p> GNU General Public License v3.0 - Please click <a href= "https://choosealicense.com/licenses/gpl-3.0/" target= "_blank" > here </a> </p>
 
-<hr>
-<strong> <em> <h2> Contact details </h2> </em> </strong>
-
-   <p> - Lucila Kalbermatter - <em> Delivery Hero Tech Academy </em> </p>
-   <p> - Github profile: https://github.com/lucilakalbermatter </p>
-
-Java project steps:
+<h2> Devolpment steps </h2>
 
 Step 1: Open Terminal and install IntelliJ IDE through the Homebrew command:
 		brew install --cask intellij-idea-ce
 
 Step 2: Open IntelliJ IDE.
 
-Step 3: Download and install a JDK by:
-		- Create a New Project.
-		- Select Java from the right sidebar.
-		- Under "Project SDK" select "Download JDK".
-		- Select Amazon Corretto version 11.
-
+Step 3: Download and install a JDK
+	
 Step 4: Continue without selecting a template.
 
 Step 5: Assign a name and address to the project.
@@ -62,18 +52,6 @@ Step 5: Assign a name and address to the project.
 Step 6: Through the Terminal, create a local git repo and connect it to the remote  Github repo.
 		Pull the remote repo to download all the current files and be updated.
 
------------------------------------------------------------------------------------------------------
-			git init
-			git remote add origin “GitHub url”
-			git remote -v
-			git checkout -b main
-			git pull origin main
-			Make changes (create folders and the Hello World app)
-                         Git add-commit -m “something”  (this is a shortcut I created but you can
-							just to the git add and then git commit -m 
-							commands separately)
-			Git push origin main
------------------------------------------------------------------------------------------------------
 Step 7: Through the Terminal, create folders with the command:
 		
 		mkdir -p src/{main,test}/{java,resources}
@@ -91,4 +69,13 @@ Step 10: Inside the "main" Java Class create the Hello World app with the next c
 		}
 
 Step 11: Commit the changes and push them to the remote repo.
+
+
+
+<hr>
+<strong> <em> <h2> Contact details </h2> </em> </strong>
+
+   <p> - Lucila Kalbermatter - <em> Delivery Hero Tech Academy </em> </p>
+   <p> - Github profile: https://github.com/lucilakalbermatter </p>
+
 
