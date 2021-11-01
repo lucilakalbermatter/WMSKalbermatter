@@ -111,6 +111,8 @@ public interface Repository {
     };
 
     String[] WAREHOUSE2 = {
+            "Cheap tablet",
+            "Cheap tablet",
             "High quality tablet",
             "Second hand headphones",
             "Second hand laptop",
