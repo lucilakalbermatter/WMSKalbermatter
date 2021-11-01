@@ -52,16 +52,10 @@ public class TheWarehouseManager {
             System.out.println(i);
         }
 
+        System.out.println("Type the number of the operation: ");
+            return reader.nextInt();
 
-        if (this.choice == 1 || this.choice == 2 || this.choice == 3) {
-            System.out.println("Type the number of the operation: ");
-            return reader.nextInt();
-        } else{
-            return reader.nextInt();
-        }
     }
-
-
 
 
     /**
@@ -145,6 +139,9 @@ public class TheWarehouseManager {
 
             case 3:
                 break;
+
+            default:
+                System.out.println("Invalid option");
         }
 
 
